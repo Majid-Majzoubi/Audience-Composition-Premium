@@ -21,12 +21,15 @@
 
 
 # Introduction <a name="introduction"></a>
-This repository contains the code used for the empirical analysis of our paper titled “XXX” published at “XXX.” Our study proposes a novel approach to strategic positioning with the aim of garnering higher aggregate evaluations. We train a recommender system using the Funk-SVD algorithm on security analysts’ evaluations of firms, and show that firms can gain higher aggregate evaluations by positioning such that they are more likely to receive attention from analysts with a positive predisposition toward them.
+This repository contains the code used for the empirical analysis of our paper titled **“Going beyond optimal distinctiveness: Strategic positioning for gaining an audience composition premium”** published at the *Strategic Management Journal*. Our study proposes a novel approach to strategic positioning with the aim of garnering higher aggregate evaluations. We train a recommender system using the Funk-SVD algorithm on security analysts’ evaluations of firms, and show that firms can gain higher aggregate evaluations by positioning such that they are more likely to receive attention from analysts with a positive predisposition toward them.
 
-Our aim of publicly sharing the code is to invite future research that could challenge, extend, and build upon our work. For any inquiries regarding the paper and code, please contact the corresponding author of the paper at XXX.
+Our aim of publicly sharing the code is to invite future research that could challenge, extend, and build upon our work. For any inquiries regarding the paper and code, please contact the corresponding author of the paper at majzoubi@yorku.ca.
+
+
 
 # Citation <a name="Citation"></a>
-If you use any of the material or insights from this repository, please cite XXXX
+If you plan to use the codes, related materials, and insights from this repository, please cite our paper as follows: <br />
+Majzoubi, M., Zhao, E. Y. (2022). Going beyond optimal distinctiveness: Strategic positioning for gaining an audience composition premium. *Strategic Management Journal*.
 
 # Theory Summary <a name="Theorysummary"></a>
 ## Abstract <a name="Abstract"></a>
@@ -40,32 +43,32 @@ A key question managers encounter is how they can increase the evaluations their
 Optimal distinctiveness research suggests that audiences evaluate firms through two stages: first, they screen the pool of products/firms to select a group that is worthy of their attention; second, they sort and evaluate the products/firms within the selected group. Accordingly, research has suggested that firms should conform to categorical bechmarks such as prototypes and exemplars to gain recognition and pass through the first screening step, and only then differentiate from their peers to stand out and succeed in the second stage.
 
 ### Audience Composition Premium <a name="Audience"></a>
-We argue that the two stages of evaluation should be considered inter-dependently, as opposed to sequentially. Firms should position strategically with the aim of passing through the first stage and gaining attention only from those audiences who have a positive predisposition toward them. By doing so, firms gain an audience composition premium, i.e., an increase in the aggregate evaluation they receive that is due to the composition of audiences evaluating them. See Figure 1 from XXX as an example. 
+We argue that the two stages of evaluation should be considered inter-dependently, as opposed to sequentially. Firms should position strategically with the aim of passing through the first stage and gaining attention only from those audiences who have a positive predisposition toward them. By doing so, firms gain an audience composition premium, i.e., an increase in the aggregate evaluation they receive that is due to the composition of audiences evaluating them. See Figure 1 from Majzoubi and Zhao (2022) as an example. 
 <br><br>"As shown, there are a total of 10 evaluators in the environment. Were they all to evaluate the firm, they would give an average rating of 4 to the firm. However, in most contexts, only a select group of audiences evaluate each specific firm. Let us assume in our example that the firm receives evaluations from five out of the 10 evaluators in the environment. Depending on how it positions itself, it could gain an average rating of 4.5 in Position 1 or 3.5 in Position 2. We conceptualize the 0.5 point above the total average rating in Position 1 a premium gained through an optimal composition of audiences evaluating the firm." (p. 10)
 
-| ![Image from XXX - Do not copy without citing](README/img1.audiencecompositionpremium.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Please do not copy without citing](README/img1.audiencecompositionpremium.jpg) |
 |:--:|
-| <b> FIGURE 1 - An illustration of audience composition premium - XXX</b>|
+| <b> FIGURE 1 - An illustration of audience composition premium - Majzoubi and Zhao (2022)</b>|
 
 
 ### The Moderating Role of Dispersion in Audience Predispositions <a name="Moderating"></a>
-The audience composition premium that firms can gain is stronger if there is a high dispersion in the predisposition of all audiences in the environment toward them. As shown in Figure 2 below from XXX, the aggregate evaluations that a firm receives is more strongly a function of its audience composition in Panel A, where there is a higher dispersion in audience predispositions, as compared to Panel B, where there is a low dispersion in audience predispositions.
+The audience composition premium that firms can gain is stronger if there is a high dispersion in the predisposition of all audiences in the environment toward them. As shown in Figure 2 below from Majzoubi and Zhao (2022), the aggregate evaluations that a firm receives is more strongly a function of its audience composition in Panel A, where there is a higher dispersion in audience predispositions, as compared to Panel B, where there is a low dispersion in audience predispositions.
 
 ||
 |:-----:|
 |Panel A – High degree of dispersion in audience predispositions|
-| ![Image from XXX - Do not copy without citing](README/img2.High.degree.of.dispersion.in.audience.predispositions.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img2.High.degree.of.dispersion.in.audience.predispositions.jpg) |
 |Panel B – Low degree of dispersion in audience predispositions|
-| ![Image from XXX - Do not copy without citing](README/img3.Low.degree.of.dispersion.in.audience.predispositions.jpg) |
-| <b> FIGURE 2 An illustration of a firm in two different contexts: in Panel A, there is high level of dispersion in audience predispositions whereas in Panel B dispersion in audience predispositions is low. XXX </b>|
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img3.Low.degree.of.dispersion.in.audience.predispositions.jpg) |
+| <b> FIGURE 2 An illustration of a firm in two different contexts: in Panel A, there is high level of dispersion in audience predispositions whereas in Panel B dispersion in audience predispositions is low. Majzoubi and Zhao (2022) </b>|
 
 
 ### Engagement with Audiences Holding Heterogeneous Evaluative Schema <a name="Engagement"></a>
-To gain an audience composition premium, firms need to learn about their audiences and the evaluative schema that their audiences use for making their evaluations. We propose that firms need to engage with an audience group that holds moderately diverse evaluative schema. While there is a positive relationship between the degree of diversity of evaluative schema that a firm engages with and the firm’s learning about its audiences, the relationship is negative for the firm’s ability to integrate the knowledge and utilize it to position strategically and effectively communicate its positioning to its target audience. Hence, the relationship between the degree of heterogeneity in the evaluative schema of audiences and a firm’s ability to gain an audience composition premium should be an inverted U-shaped relationship, as shown in Figure 3 from XXX.
+To gain an audience composition premium, firms need to learn about their audiences and the evaluative schema that their audiences use for making their evaluations. We propose that firms need to engage with an audience group that holds moderately diverse evaluative schema. While there is a positive relationship between the degree of diversity of evaluative schema that a firm engages with and the firm’s learning about its audiences, the relationship is negative for the firm’s ability to integrate the knowledge and utilize it to position strategically and effectively communicate its positioning to its target audience. Hence, the relationship between the degree of heterogeneity in the evaluative schema of audiences and a firm’s ability to gain an audience composition premium should be an inverted U-shaped relationship, as shown in Figure 3 from Majzoubi and Zhao (2022).
 
-| ![Image from XXX - Do not copy without citing](README/img4.the.multiplicative.effects.and.Ushaped.relationship.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img4.the.multiplicative.effects.and.Ushaped.relationship.jpg) |
 |:--:|
-| <b> Figure 3 The multiplicative effects of (1) learning about audiences and (2) integrating and utilizing the knowledge gained from engagement with audiences on a firm’s ability to gain an audience composition premium - XXX</b>|
+| <b> Figure 3 The multiplicative effects of (1) learning about audiences and (2) integrating and utilizing the knowledge gained from engagement with audiences on a firm’s ability to gain an audience composition premium - Majzoubi and Zhao (2022)</b>|
 
 
 # Empirical Approach <a name="Empirical"></a>
@@ -97,11 +100,11 @@ We recommend using Anaconda’s Spyder environment. Below is a list of libraries
 - ﻿[pyLDAvis](https://pypi.org/project/pyLDAvis/)
 
 ## Topic Modeling on 10-Ks <a name="Topic"></a>
-Gensim library is used to develop an LDA model on the corpus of 10-K Item 1 sections. Coherence and perplexity scores are used to select the number of topics. As shown in Figure 11 from XXX, the best number of topics for our model is 70.
+Gensim library is used to develop an LDA model on the corpus of 10-K Item 1 sections. Coherence and perplexity scores are used to select the number of topics. As shown in Figure 11 from Majzoubi and Zhao (2022), the best number of topics for our model is 70.
 
-| ![Image from XXX - Do not copy without citing](README/img5.Evaluating.the.topic.models.on.firms.10K.filings.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img5.Evaluating.the.topic.models.on.firms.10K.filings.jpg) |
 |:--:|
-| <b> FIGURE 11 Evaluating the topic models on firms’ 10-K filings based on different numbers of topics – XXX </b>|
+| <b> FIGURE 11 Evaluating the topic models on firms’ 10-K filings based on different numbers of topics – Majzoubi and Zhao (2022) </b>|
 
 JS divergence metric is used to measure similarity between two firms' topic weight distribution in their 10-K filing. We use this similarity measures to develop our measure of firm’s positioning relative to analysts’ portfolio of firms under their coverage. We use the following assumption:
 
@@ -112,19 +115,19 @@ where Pr i j is the probability that analyst j will cover firm i, and Similarity
 ## Training the Funk-SVD Model <a name="Training"></a>
 We use the Funk-SVD algorithm to train a recommender system on analysts’ investment recommendations of public US firms. Our aim is to measure each analyst’s predisposition toward each firm in any given year, regardless of whether they currently or previously have covered and evaluated the firm. We tune our model to choose the best hyperparameters, including the number of factors, learning rate and regularization term. The results are shown in Figures 7-9 in our paper. Based on our tuning, we trained our main model with 400 factors, with a learning rate of 0.005 and a regularization term of 0.2.
 
-| ![Image from XXX - Do not copy without citing](README/img6.funksvd.tuning.number.of.factors.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img6.funksvd.tuning.number.of.factors.jpg) |
 |:--:|
-| <b> FIGURE 7 Mean squared error between predicted and actual recommendations for models with different number of factors (from 50 to 1000, at 50 increments) - XXX</b>|
+| <b> FIGURE 7 Mean squared error between predicted and actual recommendations for models with different number of factors (from 50 to 1000, at 50 increments) - Majzoubi and Zhao (2022)</b>|
 
 
-| ![Image from XXX - Do not copy without citing](README/img7.funksvd.tuning.learning.rate.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img7.funksvd.tuning.learning.rate.jpg) |
 |:--:|
-| <b> FIGURE 8 Mean squared error between predicted and actual recommendations for models with different values of learning rates (from 0.0001 to 0.1) - XXX </b>|
+| <b> FIGURE 8 Mean squared error between predicted and actual recommendations for models with different values of learning rates (from 0.0001 to 0.1) - Majzoubi and Zhao (2022) </b>|
 
 
-| ![Image from XXX - Do not copy without citing](README/img8.funksvd.tuning.regularizationterm.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img8.funksvd.tuning.regularizationterm.jpg) |
 |:--:|
-| <b> FIGURE 9 Mean squared error between predicted and actual recommendations for models with different regularization term values (from 0.001 to 1) - XXX </b>|
+| <b> FIGURE 9 Mean squared error between predicted and actual recommendations for models with different regularization term values (from 0.001 to 1) - Majzoubi and Zhao (2022) </b>|
 
 
 ## Measuring Audience Composition Premium <a name="Measuring"></a>
@@ -138,9 +141,9 @@ where Pri j is the similarity between firm i and analyst j’s portfolio, Rating
 Figure 12 in our paper shows the distribution of our constructed variable.
 
 
-| ![Image from XXX - Do not copy without citing](README/img9.audience.composition.premium.distribution.jpg) |
+| ![Image from Majzoubi and Zhao (2022) - Do not copy without citing](README/img9.audience.composition.premium.distribution.jpg) |
 |:--:|
-| <b> FIGURE 12 Distribution of the audience composition premium variable - XXX </b>|
+| <b> FIGURE 12 Distribution of the audience composition premium variable - Majzoubi and Zhao (2022) </b>|
 
 
 ## Using Transcripts to Measure the Heterogeneity in the Evaluative Schema of the Audiences Firms Engage With <a name="Using"></a>
